@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+{% extends "temp_app/base.html" %}
+
+  {% block body_block %}
+
+    <h1>Welcome to index.html</h1>
+    <h1>This is temp_app's homepage</h1>
+
+    <p></p>
+
+    <h3><a href="{% url 'temp_app:relative' %}">Click</a> for relative</h3>
+    <h3><a href="{% url 'temp_app:other' %}">Click</a> for other</h3>
+    <p></p>
+
+    <h5>{{ text|cut:'world' }}</h5>
+
+    <h5>{{ number|add:"99" }}</h5>
+
+    {% endblock %}
+
+  </body>
+</html>
