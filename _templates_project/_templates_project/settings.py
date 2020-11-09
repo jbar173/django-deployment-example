@@ -25,7 +25,7 @@ SECRET_KEY = 'br#hl2c#tas=d3ha5f5o$&h0@d95y3gfu_%r2g3-tty%m96v=6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jbar789.pythonanywhere.com']
 
 
 # Application definition
